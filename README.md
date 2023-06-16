@@ -1,6 +1,10 @@
 # flutter_hello_world
 
-A new Flutter project.
+## How to create a new Flutter blank application
+1. Open VSCode and press Ctrl+Shift+P and selecte the option "Flutter: New Project".
+2. Set the project folder path and the project name.
+3. To start the application run the command: flutter run.
+4. To see the project source code navigate to the path "src/lib/main.dart".
 
 ## Getting Started
 
