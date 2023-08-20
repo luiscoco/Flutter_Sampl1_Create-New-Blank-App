@@ -1,4 +1,4 @@
-name: Flutter CI
+name: flutter_hello_world
 
 on:
   push:
