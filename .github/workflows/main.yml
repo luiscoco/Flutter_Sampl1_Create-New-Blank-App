@@ -19,8 +19,10 @@ jobs:
         with:
           flutter-version: 2.x # Change to the desired Flutter version
 
-      - name: Modify Dart SDK Constraint
-        run: sed -i 's/sdk: ">=2.12.0 <3.0.0"/sdk: ">=2.16.2 <3.0.0"/' pubspec.yaml
+      - name: Update Dart SDK Constraint
+        run: |
+          echo "environment:" >> pubspec.yaml
+          echo "  sdk: \">=2.16.2 <3.0.0\"" >> pubspec.yaml
 
       - name: Get dependencies
         run: flutter pub get
